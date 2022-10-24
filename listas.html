@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stilos.css">
+    <link rel="stylesheet" href="css/Normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <title>Lista</title>
+</head>
+
+<body class="body">
+
+    <body class="body">
+        <nav class='navegacion'>
+            <ul class="menu">
+                <li><a href="design.html">Inicio</a></li>
+                <li><a href="">Temas</a>
+                    <ul class="submenu">
+                        <li><a href="etiquetas.html">Etiquetas</a></li>
+                        <li><a href="listas.html">CSS grip</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Recursos Digitales</a>
+                    <ul class="submenu">
+                        <li><a href="recurso1.html">Recurso 1</a></li>
+                        <li><a href="recurso2.html">Recurso 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Aprendizaje</a>
+                    <ul class="submenu">
+                        <li><a href="actividad1.html">Actividad 1</a></li>
+                        <li><a href="actividad2.html">Actividad 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Acarca de</a>
+                    <ul class="submenu">
+                        <li><a href="autor.html">Autor</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section class="seciones">
+            <article>
+                <div class="container mt-3 ">
+                    <div class="row">
+                        <div class="col-md-12 bg-secondary text-white mt-3">
+                            <h3>¿Por qué se usa CSS grid layout?</h3>
+                            <p>
+                                El internet móvil presenta un gran número de desafíos para los diseñadores de páginas
+                                web: debido a la enorme variedad de diseños de los dispositivos móviles, es imposible
+                                saber qué formato tiene la pantalla en la que se visualizará el contenido web. Por esto,
+                                es esencial que los elementos individuales (cajas de texto, gráficos, elementos
+                                interactivos) se distribuyan de forma independiente y al mismo tiempo de forma clara,
+                                teniendo en mente las respectivas condiciones de espacio dadas por cada pantalla
+                            </p>
+                            <p>
+                                Hace un tiempo se trabajaba con los llamados floats, pero es una técnica compleja que
+                                daba lugar a muchos errores. Hoy los diseñadores cuentan con dos métodos para
+                                implementar un diseño dinámico: además de CSS grid, también se puede usar Flexbox. Sin
+                                embargo, las dos técnicas difieren en algunos aspectos
+                            </p>
+                            <P>
+                                Flexbox es unidimensional. Esto quiere decir que los elementos solo se pueden mover a lo
+                                largo de un eje. En cambio, un diseño CSS grid ofrece al diseñador web dos dimensiones
+                                para la colocación de los objetos porque, en lugar de solo un eje, permite crear una
+                                rejilla con filas y columnas.
+                            </P>
+
+
+                            <p>
+                        </div>
+                        <div class="col-md-12 bg-secondary text-white mt-3">
+                            <h3>Crear contenedores y elementos</h3>
+                            <P>
+                                CSS grid emplea dos unidades diferentes: contenedores y elementos. El contenedor es el
+                                nivel superior y en él se definen las propiedades que luego tendrán todos los elementos.
+                                Desde un punto de vista jerárquico, un elemento está dentro de un contenedor. Además de
+                                eso, se sigue necesitando HTML para el diseño de la rejilla o grid. En la parte HTML del
+                                código fuente, se crean los elementos individuales (texto, gráficos, etc.), que luego se
+                                recogen dentro de CSS grid y se disponen en la posición correcta.
+                            </p>
+
+                            <img class="Doctype" src="img/ol.li.jpg" alt="html">
+
+                            <p>
+                                De este modo, hemos creado seis elementos, hemos definido cada uno de ellos como
+                                grid-item y los hemos empaquetado en el grid-container. Para activar CSS grid, tienes
+                                que iniciar la función en el contenedor con display: grid. El código generará únicamente
+                                6 números, que aparecerán uno debajo del otro. Después de crearlos, pueden colocarse con
+                                relativa libertad en la pantalla
+                            </p>
+                            <h3>Rejilla, columnas y filas</h3>
+                            <p>
+                                Con CSS grid layout, se trabaja con filas y columnas para crear una cuadrícula, en la
+                                cual se colocan y distribuyen los distintos elementos. El usuario es quien decide el
+                                tamaño de las filas y las columnas, añadiendo las preferencias al contenedor.
+                            </p>
+                            <img class="Doctype" src="img/containar.jpg" alt="html">
+                            <p>
+                                Con estos dos comandos hemos abierto una cuadrícula de 2 por 3. Como puedes ver, el
+                                tamaño de cada fila y columna se puede definir por separado. Los datos se indican de
+                                forma sucesiva (separados por un punto y coma y un espacio). Además de la información
+                                exacta de los píxeles, también puedes usar porcentajes u otras unidades que son comunes
+                                en CSS. Las especificaciones max-content y min-content permiten crear una cuadrícula
+                                según el contenido.
+                            </p>
+                            <img class="Doctype" src="img/grip-container.jpg" alt="html">
+
+                        </div>
+
+                        <div class="col-md-12 bg-secondary text-white mt-3">
+
+                            <h3>Disposición de los elementos</h3>
+                            <p>
+
+                                Después de definir la rejilla, se colocan en ella los elementos. Para esto, primero
+                                tienes que crear los elementos y también especificar los valores de inicio y fin. No
+                                obstante, no todos los elementos tienen que ocupar necesariamente una sola celda dentro
+                                de la cuadrícula.
+                            </p>
+                            <img class="Doctype" src="img/Doctype.jpg" alt="html">
+
+                            <img class="Doctype" src="img/cuadricula.jpg" alt="html">
+
+                        </div>
+                        <div class="col-md-12 bg-secondary text-white mt-3">
+
+                            <h3>Asignación de áreas</h3>
+                            <p>
+
+                                CSS grid layout permite combinar celdas en áreas y nombrarlas. Esto facilita la tarea de
+                                dividir los elementos en la rejilla. Los ajustes para esto se hacen en el contenedor.
+                                Para ello, usa el comando grid-template-areas y escribe los nombres de las áreas
+                                deseadas en las celdas línea por línea. Si no quieres asignar una celda y dejarla en
+                                blanco, puedes insertar un punto en esta ubicación. Cada fila queda entrecomillada.
+                            </p>
+                            <img class="Doctype" src="img/areas.jpg" alt="html">
+                            <p>
+                                En este ejemplo, hemos definido 4 áreas diferentes. Una celda se ha dejado en blanco.
+                                Para definir los elementos, ya no será necesario especificar los valores desde-hasta.
+                                Basta con referenciar el área correspondiente.
+                            </p>
+
+                            <img class="Doctype" src="img/item1.jpg" alt="html">
+                           
+                            <img class="Doctype" src="img/colores.jpg" alt="html">
+                          
+                        </div>
+            </article>
+
+        </section>
+        <nav class='footer'>
+            <p class="info">Referencias</p>
+            <p>http://www.manualweb.net/. (04 de 01 de 2021). http://www.manualweb.net/. Obtenido de </p>
+            <a class="refe" href="http://www.manualweb.net/.">http://www.manualweb.net/.</a>
+        </nav>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
